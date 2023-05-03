@@ -63,8 +63,8 @@ export default function Portfolio() {
 					Description
 				</h2>
 				<p className="mt-2 text-slate-300 ">
-					This is my personal portfolio, which I will be constantly working on.
-					Here I showcase the skills I've learned and new knowledge.
+					{` This is my personal portfolio, which I will be constantly working on.
+					Here I showcase the skills I've learned and new knowledge.`}
 				</p>
 			</motion.div>
 			<motion.div

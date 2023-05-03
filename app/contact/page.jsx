@@ -69,7 +69,7 @@ export default function About() {
 					transition={{ delay: 0.6, duration: 1.5 }}
 					className="w-[22rem]"
 				>
-					Contact me and let's build something together!{" "}
+					{"Contact me and let's build something together! "}
 				</motion.h2>
 				<motion.form
 					initial={{ opacity: 0 }}

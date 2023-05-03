@@ -159,8 +159,9 @@ export default function Projects() {
 						/>
 						<h2 className="text-xl font-bold mt-4">Portafolio</h2>
 						<p className="text-sm font-light">
-							This is my personal portfolio, which I will be constantly working
-							on. Here I showcase the skills I've learned and new knowledge.
+							{
+								"This is my personal portfolio, which I will be constantly working"
+							}
 						</p>
 					</div>
 				</motion.card>

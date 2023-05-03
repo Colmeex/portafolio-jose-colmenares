@@ -137,7 +137,7 @@ export default function Home() {
 				className="flex mt-8 justify-center items-center"
 			>
 				<h2 className=" flex text-xl md:text-3xl font-source font-thin text-zinc-200  text-center">
-					Hi! I'm
+					{"Hi! I'm"}
 				</h2>
 				<h1 className="flex text-xl md:text-[2rem] justify-center text-center">
 					Jose Colmenares.

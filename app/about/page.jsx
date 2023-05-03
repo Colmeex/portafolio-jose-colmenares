@@ -62,10 +62,10 @@ export default function About() {
 						animate={{ opacity: 1 }}
 						transition={{ delay: 3, duration: 1.5 }}
 					>
-						Feel free to explore my portfolio, which I have put a lot of
+						{` Feel free to explore my portfolio, which I have put a lot of
 						attention and effort into, and constantly strive to improve. If you
 						have any suggestions or would like to get in touch, please don't
-						hesitate to do so! I would be happy to hear from you.
+						hesitate to do so! I would be happy to hear from you.`}
 					</motion.p>
 					<motion.p
 						className="font-source text-[11pt] justify-center text-teal-300 whitespace-pre-line mt-3"
