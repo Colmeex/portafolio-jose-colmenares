@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+ /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -16,6 +19,7 @@
   }
 }
 
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +28,77 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}  */
+
+
+html{
+  background: rgb(37,78,96);
+  background: linear-gradient(148deg, rgba(37,78,96,1) 0%, rgba(79,82,92,1) 50%, rgba(56,53,120,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+body{
+  /* background-color: rgba(255, 255, 255, 0.123); */
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto ;
+  
+   height: 100%; 
+}
+
+h1{
+  padding-left: 0.7rem;
+  
+  font-family: Morning Memories;
+  font-style: italic;
+  color: aqua;
+  background: rgb(146,231,247);
+  background: linear-gradient(90deg, rgba(146,231,247,1) 0%, rgba(205,196,243,1) 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent 
+}
+
+.footer{
+  font-family: Morning Memories;
+  font-style: italic;
+  margin-bottom: 2rem;
+  
+}
+
+.bgCard{
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+
+}
+
+.btn{
+  background: rgba(255, 255, 255, 0.171);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 5px;
+
+}
+.btn2{
+  background: rgba(16, 40, 163, 0.829);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 5px;
+
 }
