@@ -1,14 +1,9 @@
 "use client";
 import Link from "next/link";
-import {
-	DiJavascript1,
-	DiReact,
-	DiMysql,
-	DiNodejsSmall,
-	DiSass,
-} from "react-icons/di";
+import { DiJavascript1, DiReact, DiNodejsSmall, DiSass } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
+	SiPostgresql,
 	SiRedux,
 	SiFigma,
 	SiAdobephotoshop,
@@ -151,7 +146,7 @@ export default function Stack() {
 						</div>
 					</div>
 				</Link>
-				<Link href="https://www.mysql.com/">
+				<Link href="https://www.postgresql.org/">
 					<div
 						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
@@ -170,8 +165,8 @@ export default function Stack() {
 							}}
 						/>
 						<div className="p-2  flex flex-col items-center">
-							<DiMysql className="flex  h-[7rem] text-[5.5rem]" />
-							<h2 className="text-xl font-bold mt-2 text-center">MySQL</h2>
+							<SiPostgresql className="flex  h-[7rem] text-[5.5rem]" />
+							<h2 className="text-xl font-bold mt-2 text-center">PostgreSQL</h2>
 							<div className="flex">
 								<span class="mt-5 ml-2  h-5 rounded-full bg-white bg-opacity-30 px-[0.85em] py-[0.25em] text-center align-baseline text-[0.65em] font-bold leading-none text-neutral-50  flex items-center justify-center">
 									Database
