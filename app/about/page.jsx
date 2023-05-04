@@ -77,7 +77,9 @@ export default function About() {
 					</motion.p>
 				</div>
 			</div>
-			<Footer />
+			<div className="mt-[10rem]">
+				<Footer />
+			</div>
 		</div>
 	);
 }

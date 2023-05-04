@@ -53,7 +53,7 @@ export default function Stack() {
 			>
 				<Link href="https://react.dev/" passHref>
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -88,7 +88,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://developer.mozilla.org/es/docs/Web/JavaScript">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -120,7 +120,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://nextjs.org/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -153,7 +153,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://www.mysql.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -186,7 +186,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://redux.js.org/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -215,7 +215,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://git-scm.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -248,7 +248,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://tailwindcss.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -283,7 +283,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://www.figma.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -316,7 +316,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://firebase.google.com/?hl=es">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -349,7 +349,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://sass-lang.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -382,7 +382,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://nodejs.org/es">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}
@@ -415,7 +415,7 @@ export default function Stack() {
 				</Link>
 				<Link href="https://getbootstrap.com/">
 					<div
-						className="group mt-2 bgCard w-auto h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
+						className="group mt-2 bgCard w-[15rem] h-auto mt- hover:border-amber-300 hover:-translate-y-2 transition duration-500  hover:text-slate-50  "
 						onMouseMove={handleMouseMove}
 					>
 						{" "}

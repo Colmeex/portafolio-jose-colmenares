@@ -97,23 +97,29 @@ export default function Portfolio() {
 					className="w-full h-[13rem] transition duration-400 object-cover rounded-lg bg-slate-500 shadow shadow-amber-200 mt-4"
 				/>
 			</motion.div>
-			<Link href="https://github.com/Colmeex/TravelApp" passHref>
-				<span
-					target="_blank"
-					rel="noopener noreferrer"
-					className=" flex justify-center"
-				>
-					<motion.div
+			{/* <Link href="" passHref> */}
+			<span
+				target="_blank"
+				rel="noopener noreferrer"
+				className=" flex justify-center"
+			>
+				{/* <motion.div
 						className="flex items-center btn w-[12rem] mt-4 mb-16 justify-center py-[0.5rem]  hover:border-amber-300 opacity-60 hover:opacity-100 transition-all duration-300 text-base mx-2"
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 3.0, duration: 2 }}
-					>
-						<AiFillGithub className="text-4xl mr-2" />
-						<span className=" px-2 py-1 rounded">See repository</span>
-					</motion.div>
-				</span>
-			</Link>
+					> */}
+				<motion.div
+					className="flex items-center btn w-[12rem] mt-4 mb-16 justify-center py-[0.5rem]  opacity-0 cursor-default transition-all duration-300 text-base mx-2"
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 3.0, duration: 2 }}
+				>
+					<AiFillGithub className="text-4xl mr-2" />
+					<span className=" px-2 py-1 rounded">See repository</span>
+				</motion.div>
+			</span>
+			{/* </Link> */}
 			<Footer />
 		</div>
 	);

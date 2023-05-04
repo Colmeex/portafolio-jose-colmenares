@@ -198,7 +198,9 @@ export default function Projects() {
 					</div>
 				</motion.card> */}
 			</div>
-			<Footer />
+			<div className="mt-[5rem]">
+				<Footer />
+			</div>
 		</div>
 	);
 }
